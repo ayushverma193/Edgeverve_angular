@@ -1,0 +1,266 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(32, 32, 32);
+  padding: 10px 20px;
+}
+
+.top-conta {
+  display: flex;
+  flex-direction: column;
+  font-family: monospace;
+}
+
+.bot-conta {
+  display: flex;
+  flex-direction: row;
+  height: 100vh;
+}
+
+.layout-name {
+  border-radius: 15px;
+  background-color: rgb(233, 233, 130);
+  font-size: 12px;
+  width: 150px;
+  text-align: center;
+}
+
+.assigned {
+  border-radius: 15px;
+  background-color: rgb(190, 243, 190);
+  font-size: 12px;
+  width: 70px;
+  text-align: center;
+  border: 1px solid green;
+}
+
+.p-rel {
+  position: relative;
+  top: 4px;
+}
+
+.text-align {
+  padding-top: 5px;
+}
+
+.right-icon-container {
+  display: flex;
+}
+
+.project-drop-down {
+  width: 150px;
+  border: 1px solid white;
+}
+
+.white {
+  color: white;
+}
+
+.pad-r-10 {
+  padding-right: 10px;
+}
+
+.pad-l-10 {
+  padding-left: 10px;
+}
+
+.l-color {
+  color: white;
+}
+
+.pad-t-5 {
+  padding-top: 5px;
+}
+
+.vertical-align {
+  vertical-align: middle;
+  float: right;
+}
+
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 3.5%;
+  border: 1px solid lightgray;
+}
+
+.width-hr {
+  width: 53px;
+  color: rgb(228, 227, 227);
+}
+
+.gray {
+  color: gray;
+}
+
+.pad-10 {
+  padding: 10px 15px;
+}
+
+.selected-icon {
+  border-left: 5px solid rgb(29, 133, 252);
+  background-color: rgb(187, 218, 243);
+  padding: 10px 13px;
+}
+
+.content-page {
+  height: 100vh;
+  width: 94vw;
+  background-color: rgb(225, 239, 249);
+  display: flex;
+  flex-direction: column;
+}
+
+.content-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border-bottom: 1px solid lightgray;
+  padding: 10px 20px;
+}
+
+.align-content-header {
+  vertical-align: super;
+}
+
+.btn {
+  width: 100px;
+  font-size: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn-box {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.cnl-color {
+  background-color: lightgray;
+}
+
+.save-color {
+  background-color: rgb(36, 142, 235);
+  color: white;
+}
+
+.content-stats {
+  padding: 10px 20px;
+  display: flex;
+  flex-direction: row;
+}
+
+.count-stats {
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+}
+
+.inner-box {
+  display: flex;
+  flex-direction: column;
+  padding: 15px 30px;
+  width: 100px;
+}
+
+.num-font {
+  font-size: 40px;
+  color: lightgreen;
+  display: flex;
+  justify-content: center;
+}
+
+.align-text {
+  text-align: center;
+  padding-top: 10px;
+}
+
+.bor-right {
+  border-right: 2px solid rgb(243, 243, 243);
+}
+
+.graphs {
+  margin-left: 10px;
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  padding: 20px;
+  width: -webkit-fill-available;
+}
+
+.color-graph {
+  display: flex;
+  flex-direction: row;
+}
+
+.red {
+  background-color: red;
+}
+
+.yellow {
+  background-color: yellow;
+}
+
+.light-green {
+  background-color: lightgreen;
+}
+
+.green {
+  background-color: green;
+}
+
+.width-color {
+  width: 80px;
+  height: 15px;
+}
+
+.box-width {
+  width: 15px;
+  height: 15px;
+}
+
+.checkbox-label {
+  display: flex;
+  flex-direction: row;
+}
+
+.pad-b-20 {
+  padding-bottom: 20px;
+}
+
+td {
+  padding-left: 20px;
+}
+
+th {
+  text-align: left;
+  padding-left: 20px;
+}
+
+.nav-bar-cont {
+  padding: 10px 20px;
+  display: flex;
+  flex-direction: row;
+}
+
+.nav-bar {
+  width: 91.5vw;
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+  padding: 15px;
+}
+
+.pad-r-20 {
+  margin-right: 20px;
+}
+
+.border-b-b {
+  border-bottom: 5px solid rgb(29, 133, 252);
+}
+
+.selected-nav-bar {
+  display: flex;
+  flex-direction: column;
+}
