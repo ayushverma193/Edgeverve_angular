@@ -9,14 +9,6 @@
     "test": "ng test",
     "serve:ssr:Egdeverse": "node dist/egdeverse/server/server.mjs"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/ayushverma193/Edgeverve_angular.git"
-  },
-  "bugs": {
-    "url": "https://github.com/ayushverma193/Edgeverve_angular/issues"
-  },
-  "homepage": "https://github.com/ayushverma193/Edgeverve_angular#readme",
   "private": true,
   "dependencies": {
     "@angular/animations": "^17.1.0",
